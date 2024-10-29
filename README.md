@@ -20,3 +20,12 @@ This repository contains code for creating an immersive exhibition aimed at rais
 3. Run the development server:
     ```bash
     npm run start
+
+## Usage
+- **Navigation**: Click on frames to zoom in.
+- **View Descriptions**: Click on frames to reveal artist commentary and background information on each piece.
+
+## Technologies Used
+- **React** and **Three.js**: For building the interactive 3D Gallery.
+- **React Three Fiber**: For integrating Three.js with React.
+- **Drei**: For additional tools to manage 3D models and textures.
