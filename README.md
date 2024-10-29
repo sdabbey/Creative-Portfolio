@@ -1,2 +1,2 @@
-# ImageGallery
-Created with CodeSandbox
+# Creative Portfolio
+This repository contains code for creating an immersive exhibition aimed at raising awareness about the harmful effects of galamsey - the illegal and unregulated small-scale mining practices that devastate communities and ecosystems in Ghana. This exhibition serves as both a plaform for activism and an exploration of the potential for art and technology to drive social change.
