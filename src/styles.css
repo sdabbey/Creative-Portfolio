@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  color: white;
+  user-select: none;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  height: 100vh; /* Full height */
+  width: 100vw; /* Full width */
+  padding: 20px;
+}
+
+.canvas-container canvas {
+  flex-shrink: 0;
+  margin-right: 20px;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #191920;
+}
+
+@media (max-width: 768px) {
+  .canvas-container {
+    flex-direction: column;
+    overflow-y: scroll;
+    height: auto;
+  }
+}
